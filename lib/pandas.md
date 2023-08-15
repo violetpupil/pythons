@@ -1,6 +1,9 @@
 # [pandas](https://pandas.pydata.org/)
 
 ```python
+import matplotlib.pyplot as plt
+import pandas as pd
+
 # 读取csv文件
 df = pd.read_csv("tmp.csv")
 # 获取total列Series
