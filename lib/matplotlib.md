@@ -12,4 +12,6 @@ b = plt.bar(range(len(num)), num)
 plt.bar_label(b, num)
 # 阻塞显示图表
 plt.show()
+# 保存图片
+plt.savefig("total.png")
 ```
