@@ -22,3 +22,10 @@ plt.bar_label(b, counts)
 # 阻塞显示图表
 plt.show()
 ```
+
+```python
+# 计算total列平均值
+df["total"].mean()
+# 生成total列统计信息
+df["total"].describe()
+```
