@@ -1,2 +1,5 @@
 # 临时文件
 tmp*
+# 编译缓存
+# https://docs.python.org/3/faq/programming.html
+__pycache__
